@@ -1,6 +1,19 @@
 my config files for suckless software
 =====================================
 
+suckless
+|__dwm
+|  |__config.h
+|__dmenu
+|  |__config.h
+|__slstatus
+   |__config.h
+   |__components
+      |__battery.c
+      etc.
+
+edit config.h to costumize everything
+
 Installation
 ------------
 Run the following commands:
