@@ -3,27 +3,29 @@ my config files for suckless software
 
 Installation
 ------------
-    Create a suckless folder (or anything u want) and run
+Run the following commands:
 
-        git clone https://github.com/lazarescu1/suckless.git
-        cd suckless
-        cd dwm && make clean install
-        cd dmenu && make clean install
-        cd slstatus && make clean install
+    git clone https://github.com/lazarescu1/suckless.git
+    cd suckless
+    cd dwm && make clean install
+    cd dmenu && make clean install
+    cd slstatus && make clean install
 
-Usage
------
-    Add 
 
-        exec dwm &
-        exec slstatus
+Running dwm & slstatus
+----------------------
+Add the following lines to your .xinitrc file to start dwm with startx:
+
+    exec dwm &
+    exec slstatus
     
-    to your ~/.xinitrc file to run dwm and slstatus
 
-    See
+More info
+---------
+See
 
-        https://dwm.suckless.org/
-        https://dmenu.suckless.org/
-        https://slstatus.suckless.org/
-    
-    for more info
+    https://dwm.suckless.org
+    https://tools.suckless.org/dmenu
+    https://tools.suckless.org/slstatus
+
+for more info about dwm, dmenu and slstatus (plus other software).
