@@ -11,7 +11,7 @@ static		 int smartgaps				= 0;		/* 1 means no outer gap when there is only one w
 static const int showbar            	= 1;        /* 0 means no bar */
 static const int topbar             	= 1;        /* 0 means bottom bar */
 
-static const char *fonts[]          	= { "monospace:size=12", "Hack Nerd Font Mono:size=16", "NotoColorEmoji:pixelsize=14:antialias=true:autohint:true" };
+static const char *fonts[]          	= { "monospace:size=12", "Hack Nerd Font Mono:size=16", "AppleColorEmoji:pixelsize=14:antialias=true:autohint:true" };
 static const char dmenufont[]       	= "Hack Nerd Font:size=12";
 
 static char normbgcolor[]				= "#171c2d";
@@ -24,12 +24,6 @@ static char *colors[][3]				= {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
 	[SchemeSel]  = { selbgcolor, selfgcolor, selbordercolor  },
-	/* for bar --> { text, background, null } */
-	[SchemeStatus] = { normfgcolor, normbgcolor, normbgcolor },
-	[SchemeTagsSel] = { normfgcolor, normbgcolor, normbgcolor },
-	[SchemeTagsNorm] = { selbordercolor, normbgcolor, normbgcolor },
-	[SchemeInfoSel] = { normfgcolor, normbgcolor, normbgcolor },
-	[SchemeInfoNorm] = { normfgcolor, normbgcolor, normbgcolor },
 };
 
 /* tagging */
